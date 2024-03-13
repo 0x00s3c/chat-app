@@ -1,0 +1,32 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "Creating a Chat Application using Node.js, Express, Socket.io, MongoDB and HTML & CSS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "webpack --mode production",
+    "dev": "nodemon server"
+  },
+  "author": "Neelabh Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "moment": "^2.30.1",
+    "mongodb": "^3.5.9",
+    "qs": "^6.12.0",
+    "socket.io": "^2.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3",
+    "nodemon": "^2.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
